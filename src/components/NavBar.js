@@ -2,14 +2,15 @@ import React from "react";
 
 function NavBar() {
   const links = ["home", "about", "projects"];
-
-  return <nav>{/* display an <a> tag for each link here */}
+  
+  return <nav>
+    {/* display an <a> tag for each link here */}
     
-    <a href="#home">home</a>
-    <a href="#about">about</a>
-    <a href="#projects">projects</a>
-
+    <a key={1} href="#home">home</a>
+    <a key={2} href="#about">about</a>
+    <a key={3} href="#projects">projects</a>
   </nav>;
+ 
   
 
 }
